@@ -8,7 +8,7 @@ body {
     color: #0B4654;
 }
 
-.wrapper{
+.wrapper {
     max-width: 1280px;
     margin: 0 auto;
 }
@@ -17,16 +17,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 32px;
+    padding: 40px 32px
 }
-
 .logo-and-brandname{
-     display: flex;
-     align-items: center;
-     gap: 20px;
-
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
-
 .logo {
     width: 63px;
 }
@@ -59,3 +56,67 @@ a{
     text-decoration: none;
     color: inherit;
 }
+
+main {
+    display: flex;
+    padding-top: 90px;
+    padding-inline: 32px;
+}
+
+.main-text {
+    width: 50%;
+    font-family: 'Inter';
+}
+h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    color: #1C1E52;
+    margin-bottom: 22px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 32px;
+}
+
+.know-more-botton {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 2px 4px rgba(255, 255, 255, 0.25),inset 0px -2px 4px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(180deg, #34E06F 0%, #07B464 100%);
+    border-radius: 12px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 15px 60px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.main-img {
+    width: 677px;
+    padding-right: 20px;
+    margin-top: -135px;
+
+}
+
+.made-by {
+    text-align: center;
+    font-weight: 700;
+    font-size: 22px;
+    line-height:64px;
+    color: #000000;
+}
+
+.hi {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
